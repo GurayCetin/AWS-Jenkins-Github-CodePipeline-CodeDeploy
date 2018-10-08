@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ -d /var/www/html/index.html ]
+if [ -e /var/www/html/index.html ]
 then
-    rm -rf /var/www/html/index.html
+    sudo rm -rf /var/www/html/index.html
 fi
     
 
